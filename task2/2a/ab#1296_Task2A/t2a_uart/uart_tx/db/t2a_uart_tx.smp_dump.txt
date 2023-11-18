@@ -1,0 +1,6 @@
+
+State Machine - |uart_tx|state
+Name state.0000 state.STOP_BIT state.DATA_BITS 
+state.0000 0 0 0 
+state.DATA_BITS 1 0 1 
+state.STOP_BIT 1 1 0 

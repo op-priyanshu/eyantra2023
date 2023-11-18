@@ -1,0 +1,245 @@
+# Reading pref.tcl
+# do t2b_riscv_cpu_tutorial_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/store_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:08 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/store_extend.v 
+# -- Compiling module store_extend
+# 
+# Top level modules:
+# 	store_extend
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/reset_ff.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/reset_ff.v 
+# -- Compiling module reset_ff
+# 
+# Top level modules:
+# 	reset_ff
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/reg_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/reg_file.v 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/main_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/main_decoder.v 
+# -- Compiling module main_decoder
+# 
+# Top level modules:
+# 	main_decoder
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/load_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/load_extend.v 
+# -- Compiling module load_extend
+# 
+# Top level modules:
+# 	load_extend
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/imm_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/imm_extend.v 
+# -- Compiling module imm_extend
+# 
+# Top level modules:
+# 	imm_extend
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/alu_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/alu_decoder.v 
+# -- Compiling module alu_decoder
+# 
+# Top level modules:
+# 	alu_decoder
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/components/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/t2b_riscv_cpu_tutorial.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/t2b_riscv_cpu_tutorial.v 
+# -- Compiling module t2b_riscv_cpu_tutorial
+# 
+# Top level modules:
+# 	t2b_riscv_cpu_tutorial
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/data_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/data_mem.v 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 21:20:09 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/riscv_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:09 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/riscv_cpu.v 
+# -- Compiling module riscv_cpu
+# 
+# Top level modules:
+# 	riscv_cpu
+# End time: 21:20:10 on Nov 15,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/instr_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:10 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/instr_mem.v 
+# -- Compiling module instr_mem
+# 
+# Top level modules:
+# 	instr_mem
+# End time: 21:20:10 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench {C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:20:10 on Nov 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench" C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:20:10 on Nov 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 21:20:10 on Nov 15,2023
+# Loading work.tb
+# Loading work.t2b_riscv_cpu_tutorial
+# Loading work.riscv_cpu
+# Loading work.controller
+# Loading work.main_decoder
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.reset_ff
+# Loading work.adder
+# Loading work.mux2
+# Loading work.reg_file
+# Loading work.imm_extend
+# Loading work.alu
+# Loading work.load_extend
+# Loading work.mux4
+# Loading work.store_extend
+# Loading work.instr_mem
+# Loading work.data_mem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 us
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v(129)
+#    Time: 1695 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v line 129
+add wave -r /*
+restart
+run
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v(129)
+#    Time: 1695 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v line 129
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v(129)
+#    Time: 1695 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at C:/Users/priyanshu/Desktop/eyantra2023/task2/t2b_riscv_cpu_tutorial/.testbench/tb.v line 129
+# End time: 21:38:13 on Nov 15,2023, Elapsed time: 0:18:03
+# Errors: 0, Warnings: 0

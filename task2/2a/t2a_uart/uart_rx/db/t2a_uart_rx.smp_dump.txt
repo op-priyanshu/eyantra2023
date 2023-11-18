@@ -1,0 +1,6 @@
+
+State Machine - |uart_rx|state
+Name state.START_BIT state.STOP_BIT state.DATA_BITS 
+state.START_BIT 0 0 0 
+state.DATA_BITS 1 0 1 
+state.STOP_BIT 1 1 0 
